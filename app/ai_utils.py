@@ -86,9 +86,6 @@ def process_image_for_analysis(uploaded_file):
 
 def analyze_crop_image(image, input_tensor, model):
     """Analyze crop image and generate results"""
-    if not IMPORTS_SUCCESSFUL:
-        st.error("Cannot analyze image: Vision modules failed to import")
-        return None
         
     try:
         # Run inference
