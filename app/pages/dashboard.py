@@ -156,11 +156,11 @@ if stats['top_diseases']:
             progress_value = count / stats['total_analyses'] if stats['total_analyses'] > 0 else 0
             st.progress(progress_value, text=f"{formatted_disease}: {count} times")
     
-    with disease_col2:
-        st.write("**Detection Summary:**")
-        for disease, count in stats['top_diseases'][:3]:
-            percentage = (count / stats['total_analyses']) * 100 if stats['total_analyses'] > 0 else 0
-            st.write(f"• {count} analyses ({percentage:.1f}%)")
+    # with disease_col2:
+    #     st.write("**Detection Summary:**")
+    #     for disease, count in stats['top_diseases'][:3]:
+    #         percentage = (count / stats['total_analyses']) * 100 if stats['total_analyses'] > 0 else 0
+    #         st.write(f"• {count} analyses ({percentage:.1f}%)")
 
 # Analysis History
 st.subheader("📋 Recent Analyses")
@@ -245,7 +245,7 @@ if analyses:
                         if treatment:
                             for t in treatment:
                                 st.write(f"- {t}")
-                                
+
                     else:
                         st.write("No additional information available.")
     else:
