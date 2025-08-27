@@ -30,10 +30,6 @@ def load_disease_model():
         )
         
         model = load_model(model_path, DEVICE)
-        try:
-            st.success("Model loaded from Hugging Face Hub")
-        except:
-            print("Model loaded from Hugging Face Hub")
         return model
         
     except Exception as e:
