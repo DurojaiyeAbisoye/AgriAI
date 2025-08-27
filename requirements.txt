@@ -40,3 +40,6 @@ httpx==0.26.0
 sentencepiece==0.1.99  
 protobuf==4.25.3  
 huggingface-hub==0.34.4
+supabase==2.18.1 
+supabase_auth==2.12.3
+supabase_functions==0.10.1
