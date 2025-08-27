@@ -2,46 +2,26 @@ import json
 import streamlit as st
 import sys
 import os
-from PIL import Image
-import numpy as np
-import io
-import torch
-from huggingface_hub import hf_hub_download
-
 
 # Add the project root to path so we can import src modules
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if project_root not in sys.path:
     sys.path.append(project_root)
 
-try:
-    from src.vision.inference import load_model, preprocess_image, run_inference, DEVICE
-    from src.vision.gradcam_visualization import generate_gradcam, reshape_transform
-    IMPORTS_SUCCESSFUL = True
-except ImportError as e:
-    st.error(f"Error importing vision modules: {e}")
-    IMPORTS_SUCCESSFUL = False
-except Exception as e:
-    st.error(f"Unexpected error importing modules: {e}")
-    IMPORTS_SUCCESSFUL = False
 
-# Model configuration - Update these paths to point to your actual model checkpoints
-MODEL_PATHS = {
-    "swin": "./checkpoints/swin_tiny_patch4_window7_224.ms_in22k_ft_in1k/model.ckpt"
-}
 
-# Default model to use
-DEFAULT_MODEL = "swin"
+from PIL import Image
+import numpy as np
+import io
+import torch
+from huggingface_hub import hf_hub_download
+from src.vision.inference import load_model, preprocess_image, run_inference, DEVICE
+from src.vision.gradcam_visualization import generate_gradcam, reshape_transform
+
+
 
 @st.cache_resource
 def load_disease_model():
-    if not IMPORTS_SUCCESSFUL:
-        try:
-            st.error("Cannot load model: Vision modules failed to import")
-        except:
-            print("Cannot load model: Vision modules failed to import")
-        return None
-        
     try:
         # Download model from Hugging Face Hub
         model_path = hf_hub_download(
@@ -66,9 +46,6 @@ def load_disease_model():
 
 def process_image_for_analysis(uploaded_file):
     """Process uploaded image for AI analysis"""
-    if not IMPORTS_SUCCESSFUL:
-        st.error("Cannot process image: Vision modules failed to import")
-        return None, None, None
         
     try:
         # Convert uploaded file to PIL Image
