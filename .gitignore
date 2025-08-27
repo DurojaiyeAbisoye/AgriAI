@@ -1,0 +1,10 @@
+__pycache__
+checkpoints
+.ipynb_checkpoints
+*.pyc
+*.pyo
+.db
+*.ckpt
+*.model.ckpt
+users.db
+.env

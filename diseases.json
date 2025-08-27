@@ -1,0 +1,934 @@
+{
+  "plant_diseases": {
+    "Apple__black_rot": {
+      "cause": "Fungus Botryosphaeria obtusa (formerly Diplodia seriata)",
+      "symptoms": [
+        "Black, circular lesions on fruit with concentric rings",
+        "Fruit becomes mummified and remains on tree",
+        "Leaf spots with purple margins",
+        "Cankers on branches and trunk"
+      ],
+      "treatment": [
+        "Remove infected fruit and plant debris",
+        "Prune infected branches",
+        "Apply fungicides (captan, myclobutanil) during growing season",
+        "Improve air circulation around trees"
+      ]
+    },
+    "Apple__rust": {
+      "cause": "Fungus Gymnosporangium juniperi-virginianae requiring both apple and cedar/juniper hosts",
+      "symptoms": [
+        "Bright orange spots on upper leaf surfaces",
+        "Yellowish lesions that develop into orange pustules",
+        "Premature leaf drop",
+        "Fruit lesions causing distortion"
+      ],
+      "treatment": [
+        "Remove nearby cedar/juniper trees within 2 miles if possible",
+        "Apply fungicides (myclobutanil, propiconazole) preventively",
+        "Plant resistant apple varieties",
+        "Rake and destroy fallen leaves"
+      ]
+    },
+    "Apple__scab": {
+      "cause": "Fungus Venturia inaequalis",
+      "symptoms": [
+        "Dark, olive-green to black spots on leaves and fruit",
+        "Velvety appearance on lesions",
+        "Premature leaf drop",
+        "Fruit cracking and deformation"
+      ],
+      "treatment": [
+        "Apply fungicides (captan, myclobutanil) from bud break through summer",
+        "Remove fallen leaves and infected twigs",
+        "Improve air circulation through pruning",
+        "Plant scab-resistant varieties"
+      ]
+    },
+    "Cassava__bacterial_blight": {
+      "cause": "Bacterium Xanthomonas axonopodis pv. manihotis",
+      "symptoms": [
+        "Water-soaked lesions on leaves",
+        "Yellow halos around lesions",
+        "Wilting of shoots and leaves",
+        "Stem cankers and die-back"
+      ],
+      "treatment": [
+        "Use disease-free planting material",
+        "Apply copper-based bactericides",
+        "Remove and burn infected plants",
+        "Crop rotation with non-host plants"
+      ]
+    },
+    "Cassava__brown_streak_disease": {
+      "cause": "Cassava brown streak virus (CBSV) and Ugandan cassava brown streak virus (UCBSV)",
+      "symptoms": [
+        "Brown streaks on stems and leaf petioles",
+        "Chlorotic blotches on leaves",
+        "Root necrosis and dry rot",
+        "Stunting of plants"
+      ],
+      "treatment": [
+        "Use virus-free planting material",
+        "Control whitefly vectors with insecticides",
+        "Remove infected plants immediately",
+        "Plant resistant varieties"
+      ]
+    },
+    "Cassava__green_mottle": {
+      "cause": "Cassava green mottle virus",
+      "symptoms": [
+        "Light and dark green mottling on leaves",
+        "Reduced leaf size",
+        "Stunted plant growth",
+        "Yellowing of leaf margins"
+      ],
+      "treatment": [
+        "Use certified virus-free planting material",
+        "Control aphid and whitefly vectors",
+        "Remove infected plants",
+        "Practice field sanitation"
+      ]
+    },
+    "Cassava__mosaic_disease": {
+      "cause": "Various cassava mosaic viruses (CMV)",
+      "symptoms": [
+        "Yellow and green mosaic patterns on leaves",
+        "Leaf distortion and reduction in size",
+        "Stunted plant growth",
+        "Reduced tuber yield"
+      ],
+      "treatment": [
+        "Plant resistant varieties",
+        "Use virus-free planting material",
+        "Control whitefly vectors",
+        "Remove infected plants early"
+      ]
+    },
+    "Cherry__powdery_mildew": {
+      "cause": "Fungus Podosphaera clandestina",
+      "symptoms": [
+        "White powdery coating on leaves, shoots, and fruit",
+        "Leaf curling and distortion",
+        "Premature fruit drop",
+        "Reduced fruit quality"
+      ],
+      "treatment": [
+        "Apply sulfur or potassium bicarbonate sprays",
+        "Use systemic fungicides (myclobutanil, tebuconazole)",
+        "Improve air circulation through pruning",
+        "Plant resistant varieties"
+      ]
+    },
+    "Chili__leaf_curl": {
+      "cause": "Chili leaf curl virus transmitted by whiteflies",
+      "symptoms": [
+        "Upward curling of leaves",
+        "Yellowing and stunting",
+        "Reduced flowering and fruiting",
+        "Small, deformed fruits"
+      ],
+      "treatment": [
+        "Control whitefly vectors with insecticides",
+        "Remove infected plants",
+        "Use reflective mulches",
+        "Plant resistant varieties"
+      ]
+    },
+    "Chili__leaf_spot": {
+      "cause": "Various fungi including Cercospora and Alternaria species",
+      "symptoms": [
+        "Brown to black spots on leaves",
+        "Yellow halos around spots",
+        "Premature leaf drop",
+        "Reduced plant vigor"
+      ],
+      "treatment": [
+        "Apply fungicides (mancozeb, chlorothalonil)",
+        "Remove infected plant debris",
+        "Ensure good air circulation",
+        "Avoid overhead watering"
+      ]
+    },
+    "Chili__whitefly": {
+      "cause": "Whitefly insects (Bemisia tabaci)",
+      "symptoms": [
+        "Yellowing of leaves",
+        "Sticky honeydew on leaf surfaces",
+        "Sooty mold development",
+        "Stunted plant growth"
+      ],
+      "treatment": [
+        "Apply insecticidal soaps or oils",
+        "Use yellow sticky traps",
+        "Introduce beneficial insects",
+        "Apply systemic insecticides if severe"
+      ]
+    },
+    "Chili__yellowish": {
+      "cause": "Nutritional deficiency (usually nitrogen) or viral infection",
+      "symptoms": [
+        "General yellowing of leaves",
+        "Stunted growth",
+        "Poor fruit development",
+        "Leaf drop"
+      ],
+      "treatment": [
+        "Apply balanced fertilizer with nitrogen",
+        "Test soil pH and adjust if needed",
+        "Improve drainage",
+        "If viral, remove infected plants"
+      ]
+    },
+    "Coffee__cercospora_leaf_spot": {
+      "cause": "Fungus Cercospora coffeicola",
+      "symptoms": [
+        "Small brown spots on leaves with yellow halos",
+        "Premature leaf drop",
+        "Reduced photosynthesis",
+        "Weakened plants"
+      ],
+      "treatment": [
+        "Apply copper-based fungicides",
+        "Improve air circulation in plantations",
+        "Remove infected leaves",
+        "Plant resistant varieties"
+      ]
+    },
+    "Coffee__red_spider_mite": {
+      "cause": "Mites Oligonychus coffeae",
+      "symptoms": [
+        "Bronze discoloration of leaves",
+        "Fine webbing on leaf undersides",
+        "Premature leaf drop",
+        "Reduced berry production"
+      ],
+      "treatment": [
+        "Apply miticides (abamectin, spiromesifen)",
+        "Increase humidity around plants",
+        "Remove heavily infested leaves",
+        "Encourage predatory mites"
+      ]
+    },
+    "Coffee__rust": {
+      "cause": "Fungus Hemileia vastatrix",
+      "symptoms": [
+        "Orange-yellow spots on leaf undersides",
+        "Premature defoliation",
+        "Weakened plants",
+        "Reduced coffee production"
+      ],
+      "treatment": [
+        "Apply copper-based fungicides",
+        "Plant rust-resistant varieties",
+        "Improve plantation spacing",
+        "Remove infected leaves promptly"
+      ]
+    },
+    "Corn__common_rust": {
+      "cause": "Fungus Puccinia sorghi",
+      "symptoms": [
+        "Small, reddish-brown pustules on leaves",
+        "Pustules rupture releasing rust spores",
+        "Yellowing and death of leaves",
+        "Reduced grain quality"
+      ],
+      "treatment": [
+        "Plant resistant hybrids",
+        "Apply fungicides (azoxystrobin, propiconazole) early",
+        "Remove crop residue after harvest",
+        "Crop rotation"
+      ]
+    },
+    "Corn__gray_leaf_spot": {
+      "cause": "Fungus Cercospora zeae-maydis",
+      "symptoms": [
+        "Rectangular gray lesions on leaves",
+        "Lesions parallel to leaf veins",
+        "Premature leaf senescence",
+        "Reduced grain fill"
+      ],
+      "treatment": [
+        "Use resistant corn hybrids",
+        "Tillage to bury crop residue",
+        "Apply fungicides if conditions favor disease",
+        "Crop rotation with non-grass crops"
+      ]
+    },
+    "Corn__northern_leaf_blight": {
+      "cause": "Fungus Exserohilum turcicum",
+      "symptoms": [
+        "Long, elliptical gray-green lesions on leaves",
+        "Lesions may have dark borders",
+        "Lesions can cover entire leaf",
+        "Reduced photosynthesis"
+      ],
+      "treatment": [
+        "Plant resistant varieties",
+        "Apply fungicides (azoxystrobin, pyraclostrobin)",
+        "Bury crop residue",
+        "Crop rotation"
+      ]
+    },
+    "Cucumber__diseased": {
+      "cause": "Various pathogens including bacteria, fungi, and viruses",
+      "symptoms": [
+        "Leaf spots, wilting, fruit rot",
+        "Yellowing and stunting",
+        "Mosaic patterns on leaves",
+        "Fruit deformation"
+      ],
+      "treatment": [
+        "Practice crop rotation",
+        "Use disease-free seeds",
+        "Apply appropriate fungicides/bactericides",
+        "Maintain good sanitation"
+      ]
+    },
+    "Gauva__diseased": {
+      "cause": "Various pathogens including Colletotrichum species",
+      "symptoms": [
+        "Fruit rot and anthracnose",
+        "Leaf spots and defoliation",
+        "Stem cankers",
+        "Reduced fruit quality"
+      ],
+      "treatment": [
+        "Apply copper-based fungicides",
+        "Remove infected fruit and debris",
+        "Improve air circulation",
+        "Practice proper sanitation"
+      ]
+    },
+    "Grape__black_measles": {
+      "cause": "Fungus Phaeomoniella chlamydospora and other wood-infecting fungi",
+      "symptoms": [
+        "Dark spots on leaves (measles)",
+        "Yellowing and browning of leaves",
+        "Trunk and arm dieback",
+        "Reduced fruit quality"
+      ],
+      "treatment": [
+        "Prune out infected wood",
+        "Apply wound protectants",
+        "Use fungicides during dormant season",
+        "Replace severely affected vines"
+      ]
+    },
+    "Grape__black_rot": {
+      "cause": "Fungus Guignardia bidwellii",
+      "symptoms": [
+        "Circular lesions on leaves with light centers",
+        "Black, mummified berries",
+        "Cane lesions",
+        "Premature fruit drop"
+      ],
+      "treatment": [
+        "Remove mummified berries and infected leaves",
+        "Apply fungicides (mancozeb, myclobutanil)",
+        "Improve air circulation through pruning",
+        "Sanitation is critical"
+      ]
+    },
+    "Grape__leaf_blight_(isariopsis_leaf_spot)": {
+      "cause": "Fungus Isariopsis clavispora",
+      "symptoms": [
+        "Brown spots on leaves with yellow halos",
+        "Premature defoliation",
+        "Reduced photosynthesis",
+        "Weakened vines"
+      ],
+      "treatment": [
+        "Apply fungicides during growing season",
+        "Remove infected leaves",
+        "Improve air circulation",
+        "Avoid overhead irrigation"
+      ]
+    },
+    "Jamun__diseased": {
+      "cause": "Various fungal pathogens",
+      "symptoms": [
+        "Leaf spots and fruit rot",
+        "Premature fruit drop",
+        "Reduced fruit quality",
+        "Branch dieback"
+      ],
+      "treatment": [
+        "Apply appropriate fungicides",
+        "Remove infected plant parts",
+        "Improve orchard sanitation",
+        "Ensure proper drainage"
+      ]
+    },
+    "Lemon__diseased": {
+      "cause": "Various citrus pathogens",
+      "symptoms": [
+        "Citrus canker, greasy spot, or other diseases",
+        "Leaf spots and fruit lesions",
+        "Premature fruit drop",
+        "Tree decline"
+      ],
+      "treatment": [
+        "Apply copper-based fungicides",
+        "Remove infected plant material",
+        "Improve air circulation",
+        "Use integrated pest management"
+      ]
+    },
+    "Mango__diseased": {
+      "cause": "Various pathogens including anthracnose fungi",
+      "symptoms": [
+        "Dark spots on leaves and fruit",
+        "Fruit rot and drop",
+        "Flower blight",
+        "Reduced fruit quality"
+      ],
+      "treatment": [
+        "Apply fungicides before and after flowering",
+        "Remove infected plant debris",
+        "Improve orchard sanitation",
+        "Ensure proper spacing"
+      ]
+    },
+    "Peach__bacterial_spot": {
+      "cause": "Bacterium Xanthomonas arboricola pv. pruni",
+      "symptoms": [
+        "Small purple spots on leaves",
+        "Fruit lesions and cracking",
+        "Premature leaf drop",
+        "Reduced fruit quality"
+      ],
+      "treatment": [
+        "Apply copper-based bactericides",
+        "Plant resistant varieties",
+        "Remove infected plant parts",
+        "Avoid overhead irrigation"
+      ]
+    },
+    "Pepper_bell__bacterial_spot": {
+      "cause": "Xanthomonas bacteria species",
+      "symptoms": [
+        "Dark spots on leaves and fruit",
+        "Water-soaked lesions",
+        "Fruit cracking and deformation",
+        "Premature leaf drop"
+      ],
+      "treatment": [
+        "Use disease-free seeds",
+        "Apply copper-based bactericides",
+        "Practice crop rotation",
+        "Remove infected plants"
+      ]
+    },
+    "Pomegranate__diseased": {
+      "cause": "Various fungal pathogens",
+      "symptoms": [
+        "Fruit rot and splitting",
+        "Leaf spots",
+        "Branch dieback",
+        "Reduced fruit quality"
+      ],
+      "treatment": [
+        "Apply appropriate fungicides",
+        "Remove infected fruit and debris",
+        "Improve air circulation",
+        "Practice proper sanitation"
+      ]
+    },
+    "Potato__early_blight": {
+      "cause": "Fungus Alternaria solani",
+      "symptoms": [
+        "Dark brown spots on leaves with concentric rings",
+        "Lower leaves affected first",
+        "Tuber lesions",
+        "Premature defoliation"
+      ],
+      "treatment": [
+        "Apply fungicides (chlorothalonil, mancozeb)",
+        "Practice crop rotation",
+        "Remove infected plant debris",
+        "Plant resistant varieties"
+      ]
+    },
+    "Potato__late_blight": {
+      "cause": "Oomycete Phytophthora infestans",
+      "symptoms": [
+        "Water-soaked lesions on leaves",
+        "White sporulation on leaf undersides",
+        "Rapid plant collapse",
+        "Tuber rot"
+      ],
+      "treatment": [
+        "Apply fungicides (metalaxyl, cymoxanil) preventively",
+        "Remove infected plants immediately",
+        "Avoid overhead irrigation",
+        "Plant certified seed potatoes"
+      ]
+    },
+    "Rice__brown_spot": {
+      "cause": "Fungus Bipolaris oryzae",
+      "symptoms": [
+        "Brown oval spots on leaves",
+        "Spots on grain causing poor quality",
+        "Reduced tillering",
+        "Stunted growth"
+      ],
+      "treatment": [
+        "Apply fungicides (tricyclazole, propiconazole)",
+        "Use resistant varieties",
+        "Maintain proper nutrition",
+        "Avoid water stress"
+      ]
+    },
+    "Rice__hispa": {
+      "cause": "Rice hispa beetle Dicladispa armigera",
+      "symptoms": [
+        "White streaks on leaves",
+        "Scraping damage on leaf surface",
+        "Reduced photosynthesis",
+        "Stunted plant growth"
+      ],
+      "treatment": [
+        "Apply insecticides (carbofuran, fipronil)",
+        "Remove grassy weeds",
+        "Use pheromone traps",
+        "Biological control with parasitoids"
+      ]
+    },
+    "Rice__leaf_blast": {
+      "cause": "Fungus Magnaporthe oryzae",
+      "symptoms": [
+        "Diamond-shaped lesions on leaves",
+        "Gray centers with brown borders",
+        "Lesions may coalesce",
+        "Reduced photosynthesis"
+      ],
+      "treatment": [
+        "Apply fungicides (tricyclazole, isoprothiolane)",
+        "Use resistant varieties",
+        "Balanced fertilization",
+        "Proper water management"
+      ]
+    },
+    "Rice__neck_blast": {
+      "cause": "Fungus Magnaporthe oryzae",
+      "symptoms": [
+        "Brown lesions on panicle neck",
+        "Panicle breakage and lodging",
+        "White or partially filled grains",
+        "Severe yield loss"
+      ],
+      "treatment": [
+        "Apply fungicides at booting stage",
+        "Use resistant varieties",
+        "Avoid excessive nitrogen",
+        "Proper field drainage"
+      ]
+    },
+    "Soybean__bacterial_blight": {
+      "cause": "Bacterium Pseudomonas savastanoi pv. glycinea",
+      "symptoms": [
+        "Small angular spots on leaves",
+        "Yellow halos around spots",
+        "Premature defoliation",
+        "Reduced seed quality"
+      ],
+      "treatment": [
+        "Use pathogen-free seeds",
+        "Apply copper-based bactericides",
+        "Practice crop rotation",
+        "Remove infected crop residue"
+      ]
+    },
+    "Soybean__caterpillar": {
+      "cause": "Various caterpillar species",
+      "symptoms": [
+        "Defoliation and pod damage",
+        "Holes in leaves",
+        "Reduced photosynthesis",
+        "Lower yields"
+      ],
+      "treatment": [
+        "Apply appropriate insecticides",
+        "Use biological control agents",
+        "Monitor threshold levels",
+        "Plant Bt-resistant varieties"
+      ]
+    },
+    "Soybean__diabrotica_speciosa": {
+      "cause": "Diabrotica beetle species",
+      "symptoms": [
+        "Root feeding damage",
+        "Stunted plant growth",
+        "Lodging susceptibility",
+        "Reduced nutrient uptake"
+      ],
+      "treatment": [
+        "Apply soil insecticides",
+        "Use seed treatments",
+        "Crop rotation",
+        "Biological control methods"
+      ]
+    },
+    "Soybean__downy_mildew": {
+      "cause": "Oomycete Peronospora manshurica",
+      "symptoms": [
+        "Yellow spots on upper leaf surface",
+        "Gray sporulation on undersides",
+        "Premature defoliation",
+        "Seed infection"
+      ],
+      "treatment": [
+        "Plant resistant varieties",
+        "Apply fungicides if severe",
+        "Avoid overhead irrigation",
+        "Crop rotation"
+      ]
+    },
+    "Soybean__mosaic_virus": {
+      "cause": "Soybean mosaic virus transmitted by aphids",
+      "symptoms": [
+        "Light and dark green mottling on leaves",
+        "Leaf puckering and distortion",
+        "Stunted growth",
+        "Reduced seed quality"
+      ],
+      "treatment": [
+        "Use virus-free seeds",
+        "Control aphid vectors",
+        "Remove infected plants",
+        "Plant resistant varieties"
+      ]
+    },
+    "Soybean__powdery_mildew": {
+      "cause": "Fungus Microsphaera diffusa",
+      "symptoms": [
+        "White powdery coating on leaves",
+        "Premature leaf senescence",
+        "Reduced photosynthesis",
+        "Lower seed yields"
+      ],
+      "treatment": [
+        "Plant resistant varieties",
+        "Apply sulfur-based fungicides",
+        "Improve air circulation",
+        "Avoid excessive nitrogen"
+      ]
+    },
+    "Soybean__rust": {
+      "cause": "Fungus Phakopsora pachyrhizi",
+      "symptoms": [
+        "Small reddish-brown pustules on leaves",
+        "Premature defoliation",
+        "Severe yield losses",
+        "Tan to brown lesions"
+      ],
+      "treatment": [
+        "Apply fungicides (triazoles, strobilurins)",
+        "Monitor for early detection",
+        "Plant resistant varieties",
+        "Remove crop residue"
+      ]
+    },
+    "Soybean__southern_blight": {
+      "cause": "Fungus Sclerotium rolfsii",
+      "symptoms": [
+        "Stem rot at soil line",
+        "White fungal growth with sclerotia",
+        "Plant wilting and death",
+        "Stand reduction"
+      ],
+      "treatment": [
+        "Deep burial of crop residue",
+        "Apply fungicides to soil",
+        "Crop rotation with cereals",
+        "Improve soil drainage"
+      ]
+    },
+    "Strawberry___leaf_scorch": {
+      "cause": "Fungus Diplocarpon earlianum",
+      "symptoms": [
+        "Purple to reddish-brown spots on leaves",
+        "Spots enlarge and turn brown",
+        "Premature leaf drop",
+        "Reduced plant vigor"
+      ],
+      "treatment": [
+        "Apply fungicides (myclobutanil, captan)",
+        "Remove infected leaves",
+        "Improve air circulation",
+        "Plant resistant varieties"
+      ]
+    },
+    "Sugarcane__bacterial_blight": {
+      "cause": "Bacterium Xanthomonas albilineans",
+      "symptoms": [
+        "White stripes on leaves",
+        "Stunted growth",
+        "Internal discoloration of stalks",
+        "Reduced sugar content"
+      ],
+      "treatment": [
+        "Use pathogen-free planting material",
+        "Apply copper-based bactericides",
+        "Remove infected plants",
+        "Practice field sanitation"
+      ]
+    },
+    "Sugarcane__red_rot": {
+      "cause": "Fungus Colletotrichum falcatum",
+      "symptoms": [
+        "Red discoloration of internodes",
+        "Internal tissue becomes spongy",
+        "Cross-sections show red lesions",
+        "Reduced sugar content"
+      ],
+      "treatment": [
+        "Plant resistant varieties",
+        "Remove infected canes",
+        "Apply fungicides if available",
+        "Practice crop rotation"
+      ]
+    },
+    "Sugarcane__red_stripe": {
+      "cause": "Bacterium Acidovorax avenae subsp. avenae",
+      "symptoms": [
+        "Red stripes on leaves",
+        "Stunted growth",
+        "Reduced tillering",
+        "Lower yields"
+      ],
+      "treatment": [
+        "Use disease-free planting material",
+        "Apply copper-based bactericides",
+        "Remove infected plants",
+        "Improve field drainage"
+      ]
+    },
+    "Sugarcane__rust": {
+      "cause": "Fungus Puccinia melanocephala",
+      "symptoms": [
+        "Orange to brown pustules on leaves",
+        "Premature leaf senescence",
+        "Reduced photosynthesis",
+        "Lower sugar yields"
+      ],
+      "treatment": [
+        "Plant resistant varieties",
+        "Apply fungicides if severe",
+        "Remove infected leaves",
+        "Monitor weather conditions"
+      ]
+    },
+    "Tea__algal_leaf": {
+      "cause": "Alga Cephaleuros virescens",
+      "symptoms": [
+        "Orange to reddish spots on leaves",
+        "Felt-like patches on leaf surface",
+        "Premature leaf drop",
+        "Reduced tea quality"
+      ],
+      "treatment": [
+        "Apply copper-based fungicides",
+        "Improve air circulation in plantation",
+        "Remove infected leaves",
+        "Reduce humidity levels"
+      ]
+    },
+    "Tea__anthracnose": {
+      "cause": "Fungus Colletotrichum species",
+      "symptoms": [
+        "Brown lesions on leaves and stems",
+        "Premature leaf drop",
+        "Shoot dieback",
+        "Reduced tea production"
+      ],
+      "treatment": [
+        "Apply fungicides (copper oxychloride)",
+        "Remove infected plant parts",
+        "Improve plantation drainage",
+        "Plant resistant cultivars"
+      ]
+    },
+    "Tea__bird_eye_spot": {
+      "cause": "Fungus Cercospora theae",
+      "symptoms": [
+        "Small circular spots with gray centers",
+        "Brown borders around spots",
+        "Premature leaf drop",
+        "Reduced leaf quality"
+      ],
+      "treatment": [
+        "Apply copper-based fungicides",
+        "Remove infected leaves",
+        "Improve air circulation",
+        "Practice proper sanitation"
+      ]
+    },
+    "Tea__brown_blight": {
+      "cause": "Fungus Colletotrichum camelliae",
+      "symptoms": [
+        "Brown patches on leaves",
+        "Rapid spread during wet weather",
+        "Defoliation of bushes",
+        "Reduced tea yields"
+      ],
+      "treatment": [
+        "Apply systemic fungicides",
+        "Remove infected plant material",
+        "Improve plantation spacing",
+        "Monitor weather conditions"
+      ]
+    },
+    "Tea__red_leaf_spot": {
+      "cause": "Fungus Pestalotiopsis theae",
+      "symptoms": [
+        "Reddish-brown spots on leaves",
+        "Black fruiting bodies in spot centers",
+        "Premature leaf drop",
+        "Quality deterioration"
+      ],
+      "treatment": [
+        "Apply fungicides regularly",
+        "Remove infected leaves",
+        "Improve air circulation",
+        "Practice integrated management"
+      ]
+    },
+    "Tomato__bacterial_spot": {
+      "cause": "Xanthomonas bacteria species",
+      "symptoms": [
+        "Small dark spots on leaves and fruit",
+        "Water-soaked lesions",
+        "Fruit cracking and scarring",
+        "Premature defoliation"
+      ],
+      "treatment": [
+        "Use disease-free seeds and transplants",
+        "Apply copper-based bactericides",
+        "Practice crop rotation",
+        "Avoid overhead watering"
+      ]
+    },
+    "Tomato__early_blight": {
+      "cause": "Fungus Alternaria solani",
+      "symptoms": [
+        "Dark brown spots with concentric rings",
+        "Lower leaves affected first",
+        "Fruit lesions near stem end",
+        "Premature defoliation"
+      ],
+      "treatment": [
+        "Apply fungicides (chlorothalonil, mancozeb)",
+        "Stake plants for air circulation",
+        "Remove infected plant debris",
+        "Water at soil level"
+      ]
+    },
+    "Tomato__late_blight": {
+      "cause": "Oomycete Phytophthora infestans",
+      "symptoms": [
+        "Water-soaked lesions on leaves",
+        "White sporulation on undersides",
+        "Rapid plant collapse",
+        "Fruit rot"
+      ],
+      "treatment": [
+        "Apply fungicides (metalaxyl, cymoxanil) preventively",
+        "Remove infected plants immediately",
+        "Avoid overhead irrigation",
+        "Use resistant varieties"
+      ]
+    },
+    "Tomato__leaf_mold": {
+      "cause": "Fungus Passalora fulva (formerly Fulvia fulva)",
+      "symptoms": [
+        "Yellow spots on upper leaf surfaces",
+        "Olive-green sporulation on undersides",
+        "Premature defoliation",
+        "Reduced fruit production"
+      ],
+      "treatment": [
+        "Improve greenhouse ventilation",
+        "Apply fungicides (copper, chlorothalonil)",
+        "Remove infected leaves",
+        "Plant resistant varieties"
+      ]
+    },
+    "Tomato__mosaic_virus": {
+      "cause": "Tomato mosaic virus",
+      "symptoms": [
+        "Light and dark green mottling",
+        "Leaf distortion and stunting",
+        "Reduced fruit set",
+        "Poor fruit quality"
+      ],
+      "treatment": [
+        "Use virus-free seeds and plants",
+        "Practice strict sanitation",
+        "Remove infected plants",
+        "Control insect vectors"
+      ]
+    },
+    "Tomato__septoria_leaf_spot": {
+      "cause": "Fungus Septoria lycopersici",
+      "symptoms": [
+        "Small circular spots with dark borders",
+        "Gray centers with black specks",
+        "Lower leaves affected first",
+        "Premature defoliation"
+      ],
+      "treatment": [
+        "Apply fungicides (chlorothalonil, mancozeb)",
+        "Remove infected lower leaves",
+        "Improve air circulation",
+        "Avoid overhead watering"
+      ]
+    },
+    "Tomato__spider_mites_(two_spotted_spider_mite)": {
+      "cause": "Tetranychus urticae mites",
+      "symptoms": [
+        "Fine stippling on leaves",
+        "Webbing on plant surfaces",
+        "Yellowing and bronzing of leaves",
+        "Premature leaf drop"
+      ],
+      "treatment": [
+        "Apply miticides (abamectin, bifenthrin)",
+        "Increase humidity around plants",
+        "Remove heavily infested leaves",
+        "Use predatory mites"
+      ]
+    },
+    "Tomato__target_spot": {
+      "cause": "Fungus Corynespora cassiicola",
+      "symptoms": [
+        "Brown spots with concentric rings",
+        "Target-like appearance",
+        "Affects leaves, stems, and fruit",
+        "Premature defoliation"
+      ],
+      "treatment": [
+        "Apply fungicides (azoxystrobin, chlorothalonil)",
+        "Remove infected plant debris",
+        "Improve air circulation",
+        "Practice crop rotation"
+      ]
+    },
+    "Tomato__yellow_leaf_curl_virus": {
+      "cause": "Tomato yellow leaf curl virus transmitted by whiteflies",
+      "symptoms": [
+        "Upward curling of leaves",
+        "Yellowing and stunting",
+        "Reduced flowering and fruiting",
+        "Small, poor-quality fruits"
+      ],
+      "treatment": [
+        "Control whitefly vectors",
+        "Remove infected plants",
+        "Use reflective mulches",
+        "Plant resistant varieties"
+      ]
+        }
+      }
+    }
