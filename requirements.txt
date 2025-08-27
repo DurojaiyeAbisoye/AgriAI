@@ -39,3 +39,4 @@ requests==2.31.0
 httpx==0.26.0  
 sentencepiece==0.1.99  
 protobuf==4.25.3  
+huggingface-hub==0.34.4

@@ -4,13 +4,13 @@ from datetime import datetime
 from typing import Optional, Tuple, List, Dict
 import os
 from dotenv import load_dotenv
+from supabase import create_client, Client
 
 # Load environment variables for local development
 load_dotenv()
 
 # Initialize Supabase client
 try:
-    from supabase import create_client, Client
     
     # Check for environment variables first (local .env), then Streamlit secrets (cloud)
     supabase_url = os.getenv("SUPABASE_URL") or st.secrets.get("SUPABASE_URL", "")
