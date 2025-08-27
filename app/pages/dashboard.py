@@ -240,7 +240,7 @@ if analyses:
                                 st.write(f"- {symptom}")
                         else:
                             st.write("N/A")
-                        st.write(f"**Management:** {disease_info.get('management', 'N/A')}")
+                        st.write(f"**Treatment:** {disease_info.get('treatment', 'N/A')}")
                     else:
                         st.write("No additional information available.")
     else:

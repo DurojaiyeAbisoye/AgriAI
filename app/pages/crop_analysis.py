@@ -79,8 +79,6 @@ with st.spinner("🔄 Loading AI model..."):
 
 if model is None:
     st.error("❌ Could not load the AI model. Please check the model path configuration.")
-    st.info("💡 Make sure to update the MODEL_CHECKPOINT_PATH in ai_utils.py")
-    st.stop()
 
 st.success("✅ AI model loaded successfully!")
 
