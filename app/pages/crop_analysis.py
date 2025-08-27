@@ -79,8 +79,8 @@ with st.spinner("🔄 Loading AI model..."):
 
 if model is None:
     st.error("❌ Could not load the AI model. Please check the model path configuration.")
-
-st.success("✅ AI model loaded successfully!")
+else:
+    st.success("✅ AI model loaded successfully!")
 
 # Sidebar with user info and navigation
 with st.sidebar:
