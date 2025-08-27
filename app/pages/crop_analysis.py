@@ -205,7 +205,6 @@ with col2:
         
         # Disease information
         disease_info = get_disease_info(results['label'])
-        st.write(disease_info)
         with st.expander("📖 Disease Information", expanded=True):
             
             st.write(f"**Cause:** {disease_info['cause']}")
