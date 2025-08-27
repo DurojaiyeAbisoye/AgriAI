@@ -202,14 +202,3 @@ AgriAI/
 
 ### Model Distribution
 - `huggingface_hub>=0.16.0`
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgments
-
-- Disease information compiled from agricultural research sources
-- Model training data from various crop disease datasets
-- Built with Streamlit for rapid web application development
-- Powered by Supabase for reliable cloud database services
